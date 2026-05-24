@@ -1,4 +1,4 @@
-import {createGlobalStyle} from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   * {
@@ -8,12 +8,13 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
-  body {
-    background: #1f1f1f;
-    -webkit-font-smoothing: antialiased;
+  html {
+    scrollbar-gutter: stable;
   }
 
   body {
+    background-color: #1f1f1f;
+    -webkit-font-smoothing: antialiased;
     font: 16px Roboto, sans-serif;
   }
 
